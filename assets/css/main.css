@@ -32,4 +32,5 @@ body {
 }
 #header_image {
     width: calc(100% - 200px);
+    background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/730/730717-bigthumbnail.jpg');
 }
