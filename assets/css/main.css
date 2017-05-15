@@ -24,9 +24,9 @@ body {
    height: 200px;
 }
 #profile_image {
-   width: 20%;  
+   width: 200px;  
    background-image: url('/assets/jek.jpg');
 }
 #header_image {
-    width: 80%;
+    width: calc(100% - 200px);
 }
