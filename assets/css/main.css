@@ -22,8 +22,11 @@ body {
 #profile_image, #header_image {
    float: left;   
    height: 200px;
+    
+   background-position: center;
+   background-size:     cover;
 }
-#profile_image {
+#profile_image {    
    width: 200px;  
    background-image: url('/assets/jek.jpg');
 }
