@@ -1,10 +1,12 @@
 body {
     background-color: #e74c3c;
+    
     animation: bg-color 10s infinite;
     -webkit-animation: bg-color 10s infinite;
+    
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    border-top: 1px dashed #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0; padding: 0;
     font-size: 18px;
 }
 
