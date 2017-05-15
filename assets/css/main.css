@@ -1,34 +1,45 @@
+.white-stroke {
+  text-shadow: #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+               #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+.black-stroke {
+  text-shadow: #fff 0px 0px 2px,   #fff 0px 0px 2px,   #fff 0px 0px 2px,
+               #fff 0px 0px 2px,   #fff 0px 0px 2px,   #fff 0px 0px 2px;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
-    background-color: #e74c3c;
-   
-    background-image: url('/assets/jek.jpg') !important;
-    background-position: center;
-    background-size:     cover;
-   
-    animation: bg-color 10s infinite;
-    -webkit-animation: bg-color 10s infinite;
-    
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    margin: 0; padding: 0;
-    font-size: 18px;
+  margin: 0; padding: 0;
+
+  background-color: orange;
+  background: #5938d1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #5938d1 0%, #e53d6d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #5938d1 0%,#e53d6d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #5938d1 0%,#e53d6d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5938d1', endColorstr='#e53d6d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-@keyframes bg-color {
-    0%   { background-color: #c62828; }
-    20%  { background-color: #880e4f; }
-    40%  { background-color: #4fc3f7; }
-    60%  { background-color: #1e88e5; }
-    80%  { background-color: #00e676; }
-    100% { background-color: #c62828; };
-}
+#big_text {
+  margin-top:   16%;
+  font-size:    50px;
+  font-family: 'Slabo 27px', 'Droid Serif', Arial;
+  text-align:   center;
+  text-transform: uppercase;
 
-#profile_image, #header_image {
-   float: left;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 2s;
+  transition: all .8s ease;
 }
-#profile_image {    
-   width: 200px;  
-}
-#header_image {
-    
+#change {
+  font-weight: bold;
+  font-family: 'Droid Serif', Arial;
+  font-size: 100px;
 }
