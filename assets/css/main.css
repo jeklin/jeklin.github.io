@@ -11,12 +11,12 @@ body {
 }
 
 @keyframes bg-color {
-    0%   { background-color: #800080; }
-    20%  { background-color: #80006b; }
-    40%  { background-color: #800060; }
-    60%  { background-color: #b30086; }
-    80%  { background-color: #cd0099; }
-    100% { background-color: #800080; };
+    0%   { background-color: #9400D3; }
+    20%  { background-color: #4B0082; }
+    40%  { background-color: #0000FF; }
+    60%  { background-color: #00FF00; }
+    80%  { background-color: #FFFF00; }
+    100% { background-color: #FF7F00; };
 }
 
 #profile_image, #header_image {
