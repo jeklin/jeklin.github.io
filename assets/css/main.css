@@ -9,10 +9,10 @@ body {
 }
 
 @keyframes bg-color {
-    0%   { background-color: #e74c3c; }
-    20%  { background-color: #f1c40f; }
-    40%  { background-color: #1abc9c; }
-    60%  { background-color: #3498db; }
-    80%  { background-color: #9b59b6; }
-    100% { background-color: #e74c3c; };
+    0%   { background-color: #e53935; }
+    20%  { background-color: #880e4f; }
+    40%  { background-color: #1e88e5; }
+    60%  { background-color: #00e676; }
+    80%  { background-color: #eeff41; }
+    100% { background-color: #f4511e; };
 }
