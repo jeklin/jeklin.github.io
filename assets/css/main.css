@@ -18,3 +18,15 @@ body {
     80%  { background-color: #eeff41; }
     100% { background-color: #f4511e; };
 }
+
+#profile_image, #header_image {
+   float: left;   
+   height: 200px;
+}
+#profile_image {
+   width: 20%;  
+   background-image: url('jek.neocities.org/images/jek.jpg');
+}
+#header_image {
+    width: 80%;
+}
