@@ -1,6 +1,10 @@
 body {
     background-color: #e74c3c;
-    
+   
+    background-image: url('/assets/jek.jpg') !important;
+    background-position: center;
+    background-size:     cover;
+   
     animation: bg-color 10s infinite;
     -webkit-animation: bg-color 10s infinite;
     
@@ -20,17 +24,11 @@ body {
 }
 
 #profile_image, #header_image {
-   float: left;   
-   height: 200px;
-    
-   background-position: center;
-   background-size:     cover;
+   float: left;
 }
 #profile_image {    
    width: 200px;  
-   background-image: url('/assets/jek.jpg');
 }
 #header_image {
-    width: calc(100% - 200px);
-    background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/730/730717-bigthumbnail.jpg');
+    
 }
