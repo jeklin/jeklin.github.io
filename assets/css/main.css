@@ -21,12 +21,12 @@ body {
 
 #profile_image, #header_image {
    float: left;   
-   height: 200px;
+   height: 400px;
 }
 #profile_image {
-   width: 200px;  
+   width: 400px;  
    background-image: url('/assets/jek.jpg');
 }
 #header_image {
-    width: calc(100% - 200px);
+    width: calc(100% - 400px);
 }
