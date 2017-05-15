@@ -25,7 +25,7 @@ body {
 }
 #profile_image {
    width: 20%;  
-   background-image: url('https://jek.neocities.org/images/jek.jpg');
+   background-image: url('/assets/jek.jpg');
 }
 #header_image {
     width: 80%;
