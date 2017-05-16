@@ -54,6 +54,33 @@ body {
   border-bottom: dotted white 1px;*/
   padding: 10px;
 }
+.smaller { width: 90%; }
+
+.left {
+  border-top-left-radius: 6px;
+}
+.right {
+  border-top-right-radius: 6px;
+}
+
+.fourth {
+  width: 25%;
+  float: left;
+}
+.c {
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family: 'Droid Sans', 'Slabo 27px', Arial;
+  color: white;
+  padding: 10px;
+
+  border-top: dashed white 1px;
+  border-bottom: dashed white 1px;
+}
+
 .slideonload {
   text-align: right;
   white-space: nowrap;
