@@ -2,24 +2,39 @@
 <html lan="en">
   <head>
     <title>Portfolio: Jek</title>
-    <link href='http://fonts.googleapis.com/css?family=Lobster|Raleway|Roboto|Slabo+27px|Droid+Serif|Leckerli+One' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Inknut+Antiqua|Lobster|Raleway|Roboto|Slabo+27px|Droid+Serif|Leckerli+One' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="assets/js/APP.js"></script>
-    <script>$(document).ready(function(){APP.init();});</script>
+    <script>$(document).ready(function(){APP.init().begin();});</script>
   </head>
   <body>
     <div class="container">
+      <div class="slideonload" id="cater-animation">
+        <div id="me_container">
+          <img id="me" src="assets/jekcat.jpg" />
+        </div>
+        <div id="databox-1" class="databox" data-num="1" style="display: none;">
+          <div id="big_text">
+            JACK HALES
+            <div id="small_text">
+              Fullstack Web Developer
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="divider"></div>
+    </div>
+
+    <!-- <div class="container">
       <div id="me_container">
-        <img id="me" src="assets/jekcat.jpg" />
       </div>
       <div id="big_text" class="white-stroke">
         Let's do things <div id="change" class="white-stroke-2">together</div>
       </div>
-      <hr class="divider" />
       <div id="small_under_text">
-        <!-- Full-stack developer -->
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
